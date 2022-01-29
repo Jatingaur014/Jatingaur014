@@ -1,0 +1,64 @@
+
+
+/*Slider*/
+.slider-relative {
+	position:relative;
+	overflow:hidden;
+	margin: 0 auto;
+}
+
+
+.items {
+	display: none;	
+}
+
+.slider-block {
+	position:relative;
+	overflow:hidden;
+	height: 625px;
+	margin: 0 auto;
+	
+}
+.slider {
+	z-index:2;
+	height: 625px;
+	position: absolute;
+	left: 50%;
+	margin-left: -800px;
+	width: 1600px;
+}
+
+
+
+
+.pagination {
+bottom: -16px;
+position: absolute;
+left: 46%;
+margin-left: -51px;
+z-index: 999;
+}
+
+.pagination li {
+	float: left;
+	list-style: none;
+}
+
+.pagination li+li {
+	margin-left: 15px;
+}
+
+
+.pagination  li a{
+	width: 24px;
+	display: block;
+		transition: 0s ease;
+	-o-transition: 0s ease;
+	-webkit-transition: 0s ease;
+	height: 23px;
+	background: url(../img/pagination.png) right 0 no-repeat;
+}
+
+.pagination li a:hover, .pagination li.current a {
+	background-position: 0 0;
+}

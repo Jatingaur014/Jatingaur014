@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<style type="text/css">
+		.body{
+			color: azure;
+		}
+	</style>
+	<meta charset="UTF-8">
+	<title>Social Media - Best-Tea's(BESTIES)</title>
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="js\jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			$("#inst").click(function()
+			{
+				$("#ji").slideToggle(1000);
+			});
+		});
+
+		$(document).ready(function()
+		{
+			$("#inst2").click(function()
+			{
+				$("#ji2").slideToggle(1000);
+			});
+		});
+
+		$(document).ready(function()
+		{
+			$("#inst3").click(function()
+			{
+				$("#ji3").slideToggle(1000);
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div class="logo">
+				<a href="index.html">
+					<h1> BEST-TEA'S (BESTIES) </h1>
+					<p>COFFEE HOUSE & CAFE</P>
+				</a>
+			</div>
+			<ul id="navigation">
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="social.html">Social Media</a>
+				</li>
+				<li>
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="menu.html">Our Menu</a>
+				</li>
+				<li>
+					<a href="events.html">Events</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	
+	<!-----------Slider------------------------->
+	<div class="abslider">
+		<h3><a href="#"> SOCIAL MEDIA </a> / <a href="index.html"> HOME </a> </h3>
+	</div>
+	<div id="sos">
+	<div id="sm">
+		<div class="ic">
+		<img src="img\1insta.png" width="200px" height="200px" alt="instagram">
+	</div>
+		<br>
+		<br>
+		<a href="https://www.instagram.com" target="_blank"><h1> Instagram </h1></a>
+		<br>
+	
+		<p>We want to stay connected with our valuable customers. So you can up to date with us
+		on Instagram for further events, offers, news and other activities.</p>
+		<br>
+		<hr>
+		<button id="inst"> Coffee With Instagram</button>
+	<div id="ji">
+		<img src="img\aboutcoffee.jpg" width="400px" height="300px">
+	</div>
+	</div>
+	<div id="sm2">
+		<div class="ic">
+		<img src="img\facebook.png" width="200px" height="200px" alt="facebook">
+	</div>
+		<br>
+		<br>
+		<a href="https://www.facebook.com" target="_blank"><h1 style="background-color: orange;"> Facebook</h1></a>
+		<br>
+		
+		<p>We want to stay connected with our valuable customers. So you can up to date with us
+		on Facebook for further events, offers, news and other activities.</p>
+		<br>
+		<hr>
+		<button id="inst2"> Coffee With Facebook</button>
+	<div id="ji2">
+		<img src="img\coffee health.jpg" width="400px" height="300px">
+	</div>
+	</div>
+	<div id="sm3">
+		<div class="ic">
+		<img src="img\twitter-1.png" width="200px" height="200px" alt="youtube">
+	</div>
+		<br>
+		<br>
+		<a href="https://www.twitter" target="_blank"><h1> Twitter </h1></a>
+		<br>
+		
+		<p>We want to stay connected with our valuable customers. So you can up to date with us
+		on Twitter for further events, offers, news and other activities.</p>
+		<br>
+		<hr>
+		<button id="inst3"> Coffee With Twitter</button>
+	<div id="ji3">
+		<img src="img\coffee health2.jpg" width="400px" height="300px">
+	</div>
+	</div>
+</div>
+	<!------------------Footer--------------------->
+		<div id="footer">
+		<div>
+			<div id="links">
+				<div class="showroom">
+					<h4>Visit our Cafe</h4>
+					<a href="gallery.html"><img src="img\coffeebg.jpg" alt="Img"></a>
+					<p style="color: white;">
+						Mathura<br> India, 281003<br> <a href="tel: +9997744275" style="color: white; text-decoration:none;"> 999-77-44-275 </a> <a href="https://www.gmail.com" style="color: white; text-decoration:none;">jatingaur014@gmail.com</a>
+					</p>
+				</div>
+				<div>
+					<h4>Upcoming Events</h4>
+					<ul class="posts">
+						<li>
+							<span class="time">Nov 07</span>
+							<p>
+								<a href="events.html">The Dewali &amp; Celebration</a> On this Dewali we are providing big disscount for you and Celebrate it with Dhamal.  
+							</p>
+						</li>
+						<li>
+							<span class="time">Dec 31</span>
+							<p>
+								<a href="events.html">Ending of Year</a> On the last day of this year we are book for the grand party night.
+							</p>
+						</li>
+						<li>
+							<span class="time">Feb 14</span>
+							<p>
+								<a href="events.html">Valentine Day</a> All couples speacial day on this day we are providing few gift for couples who win the gameing round in our cafe.
+							</p>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<form action="#" method="post" id="newsletter">
+						<h4>Join Our Newsletter</h4>
+						<input type="text" value="Enter Email Address Here For Updates" required="news" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						<input type="submit" value="Sign up" class="btn2">
+					</form>
+					<div id="connect">
+						<h4>Social Media</h4>
+						<a href="https://www.facebook.com/" target="_blank" class="facebook"></a> <a href="https://www.gmail.com/" target="_blank" class="googleplus"></a> <a href="https://twitter.com/" target="_blank" class="twitter"></a>
+					</div>
+				</div>
+			</div>
+			<ul class="navigation">
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">About</a>
+				</li>
+				<li>
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="menu.html">Menu</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+			</ul>
+			<p id="footnote">
+				© Copyright 2021. All Rights Reserved <span>Powered By : Jatin Gaur </span>.
+			</p>
+		</div>
+	</div>
+</body>
+</html>
